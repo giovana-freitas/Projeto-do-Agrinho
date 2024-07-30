@@ -1,0 +1,100 @@
+/* Reset de estilos básicos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #e8f80d;
+}
+
+header, footer {
+    background-color: #090deb;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+}
+
+header p, footer p {
+    font-size: 1.1rem;
+}
+
+nav {
+    background-color: #2109f8;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+section {
+    background-color: #097223;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(252, 249, 249);
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+section ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+section li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+section li strong {
+    color: #070707;
+}
+
+section img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para links */
+nav ul li a:hover {
+    color: #ddd;
+}
